@@ -4,7 +4,7 @@ installing on your macOS
 
 > sudo gem install fastlane -NV 
 
-**Importante:** Don’t use *brew* for "future issues"
+**Important:** Don’t use *brew* for "future issues"
 
 > vim  ~/.zshrc
 
