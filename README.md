@@ -37,7 +37,11 @@ Check my [Fastfile](Fastfile)
 
 ### GEMFILE
 
+Check my [Gemfile](Gemfile)
+
 ### APPFILE
+
+Check my [Appfile](Appfile)
 
 **Another Example**
 https://gist.github.com/mcany/b207c18c5ea26f6d1d81d074888f2e1a
