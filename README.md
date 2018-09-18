@@ -33,6 +33,8 @@ in your project’s root directory
 
 ### FASTFILE
 
+Check my [Fastfile](Fastfile)
+
 ### GEMFILE
 
 ### APPFILE
