@@ -108,3 +108,15 @@ run the command line below:
 > export DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS="-t DAV"
 
 then retry!
+
+# Docs
+
+* For list of all built-in fastlane actions and their available options, please check: https://docs.fastlane.tools/actions/
+fastlane actions
+
+Also, To get the most up-to-date information from the command line on your current version you can also run
+
+> fastlane actions # list all available fastlane actions
+> fastlane action [action_name] # more information for a specific action
+
+
