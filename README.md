@@ -50,6 +50,21 @@ https://gist.github.com/mcany/b207c18c5ea26f6d1d81d074888f2e1a
 
 > brew cask uninstall fastlane
 
+## Apple Versioning
+
+Automating Version and Build Numbers Using agvtool.
+
+https://developer.apple.com/library/archive/qa/qa1827/_index.html
+
+you can check if it’s enabled:
+
+> xcrun agvtool what-version
+
+**other options:**
+agvtool what-marketing-version
+
+# Warnings | Errors
+
 ## UTF-8 Warning
 
 WARNING: fastlane requires your locale to be set to UTF-8. To learn more go to 
@@ -57,21 +72,10 @@ https://docs.fastlane.tools/getting-started/ios/setup/#set-up-environment-variab
 How to Set up environment variables
 
 fastlane requires some environment variables set up to run correctly. In particular, having your locale not set to a UTF-8 locale will cause issues with building and uploading your build. In your shell profile add the following lines:
+
 > export LC_ALL=en_US.UTF-8
 > export LANG=en_US.UTF-8
 
-## Apple Versioning
-
-https://developer.apple.com/library/archive/qa/qa1827/_index.html
-
-* first check if it’s enabled : 
-
-> xcrun agvtool what-version
-
-**other options:**
-agvtool what-marketing-version
-
-# Errors
 
 ## permission denied: bundle
 
