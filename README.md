@@ -37,7 +37,7 @@ Check my [Fastfile](Fastfile)
 
 ### GEMFILE
 
-Check my [Gemfile](Gemfile)
+Check my [Gemfile](MyGemfile)
 
 ### APPFILE
 
