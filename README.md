@@ -35,17 +35,17 @@ in your project’s root directory
 
 ### FASTFILE
 
-Check my [Fastfile](Fastfile)
+Check my [Fastfile](https://github.com/gurhub/fastlane/blob/master/Fastfile)
 
 ### GEMFILE
 
-Check my [Gemfile](MyGemfile). 
+Check my [Gemfile](https://github.com/gurhub/fastlane/blob/master/MyGemfile). 
 
 Note: Please rename MyGemfile to Gemfile on your local Fastlane directory.
 
 ### APPFILE
 
-Check my [Appfile](Appfile)
+Check my [Appfile](https://github.com/gurhub/fastlane/blob/master/Appfile)
 
 **Another Example**
 https://gist.github.com/mcany/b207c18c5ea26f6d1d81d074888f2e1a
