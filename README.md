@@ -47,9 +47,6 @@ Note: Please rename MyGemfile to Gemfile on your local Fastlane directory.
 
 Check my [Appfile](https://github.com/gurhub/fastlane/blob/master/Appfile)
 
-**Another Example**
-https://gist.github.com/mcany/b207c18c5ea26f6d1d81d074888f2e1a
-
 ## Unistalling Fastlane
 
 > brew cask uninstall fastlane
@@ -113,6 +110,12 @@ run the command line below:
 > export DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS="-t DAV"
 
 then retry!
+
+# Other Examples
+
+* https://github.com/fastlane/examples
+* https://gist.github.com/mcany/b207c18c5ea26f6d1d81d074888f2e1a
+
 
 # Docs
 
