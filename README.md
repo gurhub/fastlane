@@ -37,7 +37,7 @@ Check my [Fastfile](Fastfile)
 
 ### GEMFILE
 
-Check my [Gemfile](MyGemfile)
+Check my [Gemfile](MyGemfile). Note: Please rename MyGemfile to Gemfile on your local Fastlane directory.
 
 ### APPFILE
 
