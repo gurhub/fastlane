@@ -1,6 +1,6 @@
-# A Fast "fastlane" Tutorial
+# A Fast "fastlane" Setup Tutorial
 
-installing on your macOS
+**Warning: This document is still work in progress**
 
 > sudo gem install fastlane -NV 
 
