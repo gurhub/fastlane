@@ -24,9 +24,12 @@ platform :ios do
     #increment_build_number
     #xcclean
 
-    # Build
+    # Build & Archive
     gym(clean: true, suppress_xcode_output: true, workspace: "<your_workspace_file_name>.xcworkspace", scheme: "<your_scheme_name>")
 
+    # Only Build
+    # xcbuild(clean: true, suppress_xcode_output: true, workspace: "<your_workspace_file_name>.xcworkspace", scheme: "<your_scheme_name>")
+    
     # # Upload
     # crashlytics(
     #   api_token: '<api_token>',
