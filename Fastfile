@@ -20,6 +20,8 @@ default_platform(:ios)
 platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
+    
+    clear_derived_data
     cocoapods
     #increment_build_number
     #xcclean
