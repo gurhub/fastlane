@@ -51,7 +51,13 @@ Check my [Appfile](https://github.com/gurhub/fastlane/blob/master/Appfile)
 
 > brew cask uninstall fastlane
 
-## Apple Versioning
+# Other Useful Actions
+
+## clear_derived_data
+
+Deletes the Xcode Derived Data.
+
+# Apple Versioning
 
 Automating Version and Build Numbers Using agvtool.
 
