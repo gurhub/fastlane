@@ -87,6 +87,7 @@ fastlane requires some environment variables set up to run correctly. In particu
 and add the following lines:
 
 > export LC_ALL=en_US.UTF-8
+
 > export LANG=en_US.UTF-8
 
 Note: You can find your shell profile at ~/.bashrc, ~/.bash_profile, ~/.profile or ~/.zshrc depending on your system. 
