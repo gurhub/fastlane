@@ -76,14 +76,20 @@ agvtool what-marketing-version
 
 WARNING: fastlane requires your locale to be set to UTF-8. To learn more go to 
 https://docs.fastlane.tools/getting-started/ios/setup/#set-up-environment-variables
-How to Set up environment variables
+How to Set up environment variables:
 
-fastlane requires some environment variables set up to run correctly. In particular, having your locale not set to a UTF-8 locale will cause issues with building and uploading your build. In your shell profile add the following lines:
+Set up environment variables
+
+fastlane requires some environment variables set up to run correctly. In particular, having your locale not set to a UTF-8 locale will cause issues with building and uploading your build. Open your shell profile with:
+
+> vim ~/.zshrc
+
+and add the following lines:
 
 > export LC_ALL=en_US.UTF-8
-
 > export LANG=en_US.UTF-8
 
+Note: You can find your shell profile at ~/.bashrc, ~/.bash_profile, ~/.profile or ~/.zshrc depending on your system. 
 
 ## permission denied: bundle
 
@@ -114,6 +120,18 @@ Solution:
 run the command line below:
 
 > export DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS="-t DAV"
+
+then retry!
+
+##  Could not find unf_ext-0.0.7.5 in any of the sources
+Ignoring bigdecimal-1.3.5 because its extensions are not built. Try: gem pristine bigdecimal --version 1.3.5
+Could not find unf_ext-0.0.7.5 in any of the sources
+Run `bundle install` to install missing gems.
+
+Solution: 
+Run 
+
+> bundle install --verbose
 
 then retry!
 
