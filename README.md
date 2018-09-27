@@ -136,6 +136,18 @@ Run
 
 then retry!
 
+## To fix Bundler errors
+
+First unsinstall with command below:
+
+> sudo gem uninstall -n /usr/local/bin bundler
+
+will ask you "Select gem to uninstall", you can seleck All option if you have more then one gem. 
+
+Then run:
+
+> sudo gem uninstall -n /usr/local/bin bundler
+
 # Other Examples
 
 * https://github.com/fastlane/examples
