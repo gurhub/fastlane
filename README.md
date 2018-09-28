@@ -146,7 +146,7 @@ will ask you "Select gem to uninstall", you can seleck All option if you have mo
 
 Then run:
 
-> sudo gem uninstall -n /usr/local/bin bundler
+> sudo gem install -n /usr/local/bin bundler
 
 # Other Examples
 
