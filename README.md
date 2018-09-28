@@ -16,7 +16,7 @@ add this line: export PATH="$HOME/.fastlane/bin:$PATH"
 
 in your project’s root directory
 
-> bundle exec fastlane beta  
+> bundle exec fastlane beta --verbose
 
 **beta** is the name of your Fastlane file's **lane** section.
 
