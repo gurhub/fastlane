@@ -44,7 +44,7 @@ platform :appletvos do
     # )
 
     # Submit to iTunes Connect (upload_to_testflight)
-    pilot(skip_submission: true, skip_waiting_for_build_processing: true)
+    pilot(skip_submission: true, skip_waiting_for_build_processing: true, app_platform: "appletvos")
 
     upload_symbols_to_crashlytics # Upload dSYM symbolication files to Crashlytics
   end
