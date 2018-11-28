@@ -14,9 +14,15 @@ add this line: export PATH="$HOME/.fastlane/bin:$PATH"
 
 > fastlane init 
 
-in your project’s root directory
+# Run
+
+run in your project’s root directory
 
 > bundle exec fastlane beta --verbose
+
+# tvOS
+
+If you're working on a **tvOS** project then you need to use it like in example: [Fastfile_tvOS](https://github.com/gurhub/fastlane/blob/master/Fastfile_tvOS) 
 
 **beta** is the name of your Fastlane file's **lane** section.
 
