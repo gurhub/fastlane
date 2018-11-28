@@ -49,9 +49,11 @@ Note: Please rename MyGemfile to Gemfile on your local Fastlane directory.
 
 Check my [Appfile](https://github.com/gurhub/fastlane/blob/master/Appfile)
 
-## tvOS
+# Targeting tvOS
 
 If you're working on a **tvOS** project then you need to use it like in example: [Fastfile_tvOS](https://github.com/gurhub/fastlane/blob/master/Fastfile_tvOS) 
+
+**Warning:** Please don't forget that tvOS support is still experimental and platform 'appletvos' is **not officially supported**. Currently supported platforms are [:ios, :mac, :android]. But your lane will work like a charm.
 
 ## Unistalling Fastlane
 
