@@ -117,6 +117,17 @@ if you install with brew first uninstall brew version of it:
 then
 > sudo gem install fastlane -NV -n /usr/local/bin
 
+## Sign in with the app-specific password you generated. If you forgot the app-specific password or need to create a new one, go to appleid.apple.com (-22938)
+
+Transporter transfer failed.Sign in with the app-specific password you generated. If you forgot the app-specific password or need to create a new one, go to appleid.apple.com (-22938)Your account has 2 step verification enabled. Please go to https://appleid.apple.com/account/manage and generate an application specific password for the iTunes Transporter, which is used to upload builds. To set the application specific password on a CI machine using an environment variable, you can set the FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD variable.
+
+Goto https://appleid.apple.com/, under Security find:
+
+APP-SPECIFIC PASSWORDS
+
+Use the "Generate Password" link to create a new password. Set the FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD environment variable in your .bash_profile file. This file could be different depending on your chose for the bash on your terminal. Add this line:
+
+export FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD="XXX"
 
 ## Transporter Error Output]: Could not start delivery: all transports failed diagnostics
 
