@@ -1,5 +1,3 @@
-**Warning: This document is still work in progress**
-
 # A Fast "fastlane" Setup Tutorial
 
 installing on your macOS
