@@ -21,6 +21,7 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
     
+    xcversion(version: "11.3.1")
     update_fastlane
     clear_derived_data
     cocoapods
