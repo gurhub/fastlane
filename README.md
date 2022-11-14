@@ -19,7 +19,7 @@ $ rbenv install -l
 
 ### Install version 2.3.8 for example
 ```bash
-$ rbenv install 2.3.8
+$ rbenv install 2.7.6
 ``` 
 
 ### Now we can use this ruby version globally
