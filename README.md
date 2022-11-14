@@ -1,4 +1,4 @@
-# A Fast "fastlane" Setup Tutorial
+# The fastlane Setup Steps
 
 ### Installing on your macOS
 
