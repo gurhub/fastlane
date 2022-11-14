@@ -58,13 +58,6 @@ source "https://rubygems.org"
 gem "fastlane"
 ```
 
-then
-
-```bash
-> sudo gem install fastlane -NV 
-```
-remember
-
 * Run bundle update and add both the ./Gemfile and the ./Gemfile.lock to version control
 * Every time you run fastlane, use 
 ```bash
